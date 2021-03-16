@@ -34,13 +34,13 @@ public class MainActivity extends AppCompatActivity {
         //实例化构造器
         BaseAddapt myAdapter = new BaseAddapt(students,getApplicationContext());
         mListView.setAdapter(myAdapter);
-        //注册点击事件
+        /*注册点击事件
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(getApplicationContext(),"当前位置："+position,Toast.LENGTH_LONG);
             }
-        });
+        });*/
     }
 
     private void initUI() {
